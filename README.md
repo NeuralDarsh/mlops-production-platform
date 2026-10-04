@@ -28,6 +28,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `async_event_bus.py` : A distributed messaging and concurrency utility in Python implementing an asynchronous in-memory event bus with wildcard pattern routing, concurrent subscriber execution, and isolated error boundaries.
 * **プロジェクト名:** `async_event_bus.py` : ワイルドカードパターンルーティング、並行サブスクライバー実行、および独立したエラー境界を備えた非同期インメモリイベントバスを実装する、Pythonベースの分散メッセージングおよび並行性用ユーティリティ。
 
+### Automated Distributed Idempotency Key Engine :
+* **Project Name:** `idempotency_key_store.py` : An MLOps platform reliability utility in Python implementing an in-memory idempotency key engine and deduplication store with thread-safe atomic state transitions and sliding TTL expiration.
+* **プロジェクト名:** `idempotency_key_store.py` : スレッドセーフなアトミック状態遷移とスライディングTTL有効期限を備えたインメモリ冪等性キーエンジンおよび重複排除ストアを実装する、PythonベースのMLOpsプラットフォーム信頼性用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
