@@ -32,6 +32,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `idempotency_key_store.py` : An MLOps platform reliability utility in Python implementing an in-memory idempotency key engine and deduplication store with thread-safe atomic state transitions and sliding TTL expiration.
 * **プロジェクト名:** `idempotency_key_store.py` : スレッドセーフなアトミック状態遷移とスライディングTTL有効期限を備えたインメモリ冪等性キーエンジンおよび重複排除ストアを実装する、PythonベースのMLOpsプラットフォーム信頼性用ユーティリティ。
 
+### Automated Point-in-Time Correct Feature Store :
+* **Project Name:** `point_in_time_feature_store.py` : An MLOps feature engineering utility in Python implementing an append-only feature store with AS-OF point-in-time joins to eliminate future data leakage in training pipelines.
+* **プロジェクト名:** `point_in_time_feature_store.py` : 学習パイプラインにおける未来データのリークを排除するため、AS-OF時点結合を備えた追記専用特徴量ストアを実装する、PythonベースのMLOps特徴量エンジニアリング用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
