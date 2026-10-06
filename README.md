@@ -32,6 +32,14 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `idempotency_key_store.py` : An MLOps platform reliability utility in Python implementing an in-memory idempotency key engine and deduplication store with thread-safe atomic state transitions and sliding TTL expiration.
 * **プロジェクト名:** `idempotency_key_store.py` : スレッドセーフなアトミック状態遷移とスライディングTTL有効期限を備えたインメモリ冪等性キーエンジンおよび重複排除ストアを実装する、PythonベースのMLOpsプラットフォーム信頼性用ユーティリティ。
 
+### Automated Point-in-Time Correct Feature Store :
+* **Project Name:** `point_in_time_feature_store.py` : An MLOps feature engineering utility in Python implementing an append-only feature store with AS-OF point-in-time joins to eliminate future data leakage in training pipelines.
+* **プロジェクト名:** `point_in_time_feature_store.py` : 学習パイプラインにおける未来データのリークを排除するため、AS-OF時点結合を備えた追記専用特徴量ストアを実装する、PythonベースのMLOps特徴量エンジニアリング用ユーティリティ。
+
+### Automated Micro-Batch Dynamic Inference Scheduler :
+* **Project Name:** `dynamic_batch_inference_scheduler.py` : An MLOps inference optimization utility in Python implementing a dynamic micro-batch scheduler with adaptive SLA timeouts, vectorized batch tensor execution, and client future demultiplexing.
+* **プロジェクト名:** `dynamic_batch_inference_scheduler.py` : 適応型SLAタイムアウト、ベクトル化バッチテンソル実行、およびクライアントFutureの逆多重化を備えた動的マイクロバッチスケジューラを実装する、PythonベースのMLOps推論最適化用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
