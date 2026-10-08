@@ -40,6 +40,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `dynamic_batch_inference_scheduler.py` : An MLOps inference optimization utility in Python implementing a dynamic micro-batch scheduler with adaptive SLA timeouts, vectorized batch tensor execution, and client future demultiplexing.
 * **プロジェクト名:** `dynamic_batch_inference_scheduler.py` : 適応型SLAタイムアウト、ベクトル化バッチテンソル実行、およびクライアントFutureの逆多重化を備えた動的マイクロバッチスケジューラを実装する、PythonベースのMLOps推論最適化用ユーティリティ。
 
+### Automated Model Registry & Rollback Engine :
+* **Project Name:** `model_registry_engine.py` : An MLOps governance and lifecycle management utility in Python implementing an immutable model registry with semantic versioning, stage state machines, artifact checksum verification, and instant rollback.
+* **プロジェクト名:** `model_registry_engine.py` : セマンティックバージョニング、ステージ状態遷移マシン、アーティファクトチェックサム検証、および即時ロールバックを備えた不変モデルレジストリを実装する、PythonベースのMLOpsガバナンスおよびライフサイクル管理用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
