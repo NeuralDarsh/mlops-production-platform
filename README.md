@@ -44,6 +44,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `model_registry_engine.py` : An MLOps governance and lifecycle management utility in Python implementing an immutable model registry with semantic versioning, stage state machines, artifact checksum verification, and instant rollback.
 * **プロジェクト名:** `model_registry_engine.py` : セマンティックバージョニング、ステージ状態遷移マシン、アーティファクトチェックサム検証、および即時ロールバックを備えた不変モデルレジストリを実装する、PythonベースのMLOpsガバナンスおよびライフサイクル管理用ユーティリティ。
 
+### Automated Dynamic Traffic Canary Router :
+* **Project Name:** `canary_deployment_router.py` : An MLOps progressive delivery and deployment utility in Python implementing weighted stochastic traffic splitting, entity session stickiness hashing, and automated SLA health-rollback watchdogs.
+* **プロジェクト名:** `canary_deployment_router.py` : 重み付き確率的トラフィック分割、エンティティセッション固定ハッシュ、および自動SLAヘルスロールバック監視を実装する、PythonベースのMLOpsプログレッシブデリバリおよびデプロイ用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
