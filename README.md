@@ -48,6 +48,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `canary_deployment_router.py` : An MLOps progressive delivery and deployment utility in Python implementing weighted stochastic traffic splitting, entity session stickiness hashing, and automated SLA health-rollback watchdogs.
 * **プロジェクト名:** `canary_deployment_router.py` : 重み付き確率的トラフィック分割、エンティティセッション固定ハッシュ、および自動SLAヘルスロールバック監視を実装する、PythonベースのMLOpsプログレッシブデリバリおよびデプロイ用ユーティリティ。
 
+### Automated High-Throughput Tiered Feature Cache Engine :
+* **Project Name:** `tiered_feature_cache.py` : An MLOps feature engineering and serving utility in Python implementing a two-level L1/L2 cache hierarchy with LRU eviction and Stale-While-Revalidate (SWR) consistency patterns.
+* **プロジェクト名:** `tiered_feature_cache.py` : LRUエビクションとStale-While-Revalidate（SWR）整合性パターンを備えた2層L1/L2キャッシュ階層を実装する、PythonベースのMLOps特徴量エンジニアリングおよびサービング用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
