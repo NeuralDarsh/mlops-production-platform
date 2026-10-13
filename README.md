@@ -52,6 +52,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `tiered_feature_cache.py` : An MLOps feature engineering and serving utility in Python implementing a two-level L1/L2 cache hierarchy with LRU eviction and Stale-While-Revalidate (SWR) consistency patterns.
 * **プロジェクト名:** `tiered_feature_cache.py` : LRUエビクションとStale-While-Revalidate（SWR）整合性パターンを備えた2層L1/L2キャッシュ階層を実装する、PythonベースのMLOps特徴量エンジニアリングおよびサービング用ユーティリティ。
 
+### Automated Shadow Deployment & Divergence Auditor :
+* **Project Name:** `shadow_deployment_engine.py` : An MLOps deployment and testing utility in Python implementing asynchronous request mirroring (dark launching) with decoupled failure containment and real-time prediction divergence telemetry.
+* **プロジェクト名:** `shadow_deployment_engine.py` : 分離された障害封じ込めとリアルタイム予測発散テレメトリを備えた非同期リクエストミラーリング（ダークローンチ）を実装する、PythonベースのMLOpsデプロイおよびテスト用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
