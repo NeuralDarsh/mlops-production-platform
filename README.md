@@ -56,6 +56,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `shadow_deployment_engine.py` : An MLOps deployment and testing utility in Python implementing asynchronous request mirroring (dark launching) with decoupled failure containment and real-time prediction divergence telemetry.
 * **プロジェクト名:** `shadow_deployment_engine.py` : 分離された障害封じ込めとリアルタイム予測発散テレメトリを備えた非同期リクエストミラーリング（ダークローンチ）を実装する、PythonベースのMLOpsデプロイおよびテスト用ユーティリティ。
 
+### Automated Streaming Sliding-Window Feature Aggregator :
+* **Project Name:** `streaming_window_aggregator.py` : A real-time MLOps feature engineering utility in Python implementing sliding time-window queues, Welford's streaming variance algorithm, and half-life exponential time-decay aggregations.
+* **プロジェクト名:** `streaming_window_aggregator.py` : スライディング時間枠キュー、ウェルフォードのストリーミング分散アルゴリズム、および半減期指数時間減衰集約を実装する、PythonベースのリアルタイムMLOps特徴量エンジニアリング用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
