@@ -60,6 +60,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `streaming_window_aggregator.py` : A real-time MLOps feature engineering utility in Python implementing sliding time-window queues, Welford's streaming variance algorithm, and half-life exponential time-decay aggregations.
 * **プロジェクト名:** `streaming_window_aggregator.py` : スライディング時間枠キュー、ウェルフォードのストリーミング分散アルゴリズム、および半減期指数時間減衰集約を実装する、PythonベースのリアルタイムMLOps特徴量エンジニアリング用ユーティリティ。
 
+### Automated Dynamic Token Bucket Rate Limiter :
+* **Project Name:** `token_bucket_rate_limiter.py` : An MLOps serving and infrastructure protection utility in Python implementing continuous token bucket replenishment, multi-tier priority admission control, and backend hardware concurrency governance.
+* **プロジェクト名:** `token_bucket_rate_limiter.py` : 連続トークンバケット補充、マルチティア優先度入場制御、およびバックエンドハードウェア並行性ガバナンスを実装する、PythonベースのMLOps推論サービングおよびインフラ保護用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
