@@ -64,6 +64,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `token_bucket_rate_limiter.py` : An MLOps serving and infrastructure protection utility in Python implementing continuous token bucket replenishment, multi-tier priority admission control, and backend hardware concurrency governance.
 * **プロジェクト名:** `token_bucket_rate_limiter.py` : 連続トークンバケット補充、マルチティア優先度入場制御、およびバックエンドハードウェア並行性ガバナンスを実装する、PythonベースのMLOps推論サービングおよびインフラ保護用ユーティリティ。
 
+### Automated Streaming Data Contract Validator :
+* **Project Name:** `data_contract_validator.py` : An MLOps data quality and ingestion guardrail utility in Python implementing declarative schema contracts, type coercion, and Dead-Letter Queue (DLQ) quarantine routing.
+* **プロジェクト名:** `data_contract_validator.py` : 宣言的スキーマコントラクト、型強制、およびデッドレターキュー（DLQ）隔離ルーティングを実装する、PythonベースのMLOpsデータ品質および取り込みガードレール用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
