@@ -68,6 +68,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `data_contract_validator.py` : An MLOps data quality and ingestion guardrail utility in Python implementing declarative schema contracts, type coercion, and Dead-Letter Queue (DLQ) quarantine routing.
 * **プロジェクト名:** `data_contract_validator.py` : 宣言的スキーマコントラクト、型強制、およびデッドレターキュー（DLQ）隔離ルーティングを実装する、PythonベースのMLOpsデータ品質および取り込みガードレール用ユーティリティ。
 
+### Automated Distributed Context Propagation & Lineage Tracer :
+* **Project Name:** `distributed_lineage_tracer.py` : An MLOps observability and telemetry utility in Python implementing asynchronous context-bound distributed tracing, hierarchical span tree generation, and inference pipeline lineage tracking.
+* **プロジェクト名:** `distributed_lineage_tracer.py` : 非同期コンテキストバインド分散トレーシング、階層的スパンツリー生成、および推論パイプラインリネージ追跡を実装する、PythonベースのMLOps可観測性およびテレメトリ用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
