@@ -72,6 +72,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `distributed_lineage_tracer.py` : An MLOps observability and telemetry utility in Python implementing asynchronous context-bound distributed tracing, hierarchical span tree generation, and inference pipeline lineage tracking.
 * **プロジェクト名:** `distributed_lineage_tracer.py` : 非同期コンテキストバインド分散トレーシング、階層的スパンツリー生成、および推論パイプラインリネージ追跡を実装する、PythonベースのMLOps可観測性およびテレメトリ用ユーティリティ。
 
+### Automated Ground-Truth Reconciliation & Degradation Watchdog :
+* **Project Name:** `ground_truth_reconciliation_watchdog.py` : An MLOps streaming evaluation utility in Python implementing delayed ground-truth reconciliation, TTL-bounded prediction buffers, and rolling performance degradation alert watchdogs.
+* **プロジェクト名:** `ground_truth_reconciliation_watchdog.py` : 遅延した正解ラベルの突合、TTL制約付き予測バッファ、および移動パフォーマンス低下アラート監視を実装する、PythonベースのMLOpsストリーミング評価用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
