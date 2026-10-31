@@ -76,6 +76,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `ground_truth_reconciliation_watchdog.py` : An MLOps streaming evaluation utility in Python implementing delayed ground-truth reconciliation, TTL-bounded prediction buffers, and rolling performance degradation alert watchdogs.
 * **プロジェクト名:** `ground_truth_reconciliation_watchdog.py` : 遅延した正解ラベルの突合、TTL制約付き予測バッファ、および移動パフォーマンス低下アラート監視を実装する、PythonベースのMLOpsストリーミング評価用ユーティリティ。
 
+### Automated Model Worker Fleet Health Supervisor :
+* **Project Name:** `model_fleet_supervisor.py` : An MLOps serving and fleet management utility in Python implementing worker liveness probing, dynamic composite load-score balancing, and automated fault-quarantine routing.
+* **プロジェクト名:** `model_fleet_supervisor.py` : ワーカーの生存プローブ、動的複合負荷スコアバランシング、および自動障害隔離ルーティングを実装する、PythonベースのMLOps推論サービングおよびフリート管理用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
