@@ -80,6 +80,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `model_fleet_supervisor.py` : An MLOps serving and fleet management utility in Python implementing worker liveness probing, dynamic composite load-score balancing, and automated fault-quarantine routing.
 * **プロジェクト名:** `model_fleet_supervisor.py` : ワーカーの生存プローブ、動的複合負荷スコアバランシング、および自動障害隔離ルーティングを実装する、PythonベースのMLOps推論サービングおよびフリート管理用ユーティリティ。
 
+### Automated Zero-Downtime Atomic Model Swap Engine :
+* **Project Name:** `atomic_model_swap_engine.py` : An MLOps serving and deployment utility in Python implementing in-memory blue-green model staging, candidate pre-warming, atomic pointer swapping, and in-flight request reference draining.
+* **プロジェクト名:** `atomic_model_swap_engine.py` : インメモリのブルー・グリーンモデルステージング、候補モデルの事前ウォームアップ、アトミックポインタスワップ、および処理中リクエストのリファレンスドレインを実装する、PythonベースのMLOps推論サービングおよびデプロイ用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
