@@ -84,6 +84,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `atomic_model_swap_engine.py` : An MLOps serving and deployment utility in Python implementing in-memory blue-green model staging, candidate pre-warming, atomic pointer swapping, and in-flight request reference draining.
 * **プロジェクト名:** `atomic_model_swap_engine.py` : インメモリのブルー・グリーンモデルステージング、候補モデルの事前ウォームアップ、アトミックポインタスワップ、および処理中リクエストのリファレンスドレインを実装する、PythonベースのMLOps推論サービングおよびデプロイ用ユーティリティ。
 
+### Automated Exponential Backoff Retry Engine with Full Jitter :
+* **Project Name:** `retry_jitter_engine.py` : An MLOps serving and network resilience utility in Python implementing exponential backoff with full jitter randomization, transient error classification, and Dead-Letter Queue escalation.
+* **プロジェクト名:** `retry_jitter_engine.py` : フルジッターランダム化、一時的エラー分類、およびデッドレターキューエスカレーションを備えた指数バックオフを実装する、PythonベースのMLOps推論サービングおよびネットワーク耐障害性用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
