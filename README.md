@@ -88,6 +88,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `retry_jitter_engine.py` : An MLOps serving and network resilience utility in Python implementing exponential backoff with full jitter randomization, transient error classification, and Dead-Letter Queue escalation.
 * **プロジェクト名:** `retry_jitter_engine.py` : フルジッターランダム化、一時的エラー分類、およびデッドレターキューエスカレーションを備えた指数バックオフを実装する、PythonベースのMLOps推論サービングおよびネットワーク耐障害性用ユーティリティ。
 
+### Automated Model Evaluation Gate & Threshold Assert Engine :
+* **Project Name:** `model_eval_gate.py` : An MLOps governance and continuous validation utility in Python implementing confusion matrix metric derivation, declarative threshold floors, and baseline regression delta evaluation gates.
+* **プロジェクト名:** `model_eval_gate.py` : 混同行列からの評価指標算出、宣言的しきい値基準、およびベースライン回帰デルタ評価ゲートを実装する、PythonベースのMLOpsガバナンスおよび継続的検証用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
