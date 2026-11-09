@@ -96,6 +96,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `latency_histogram_tracker.py` : An MLOps serving and telemetry profiling utility in Python implementing constant-memory latency histogram bucketing, continuous p50/p90/p99 quantile rank interpolation, and tail latency SLA verification.
 * **プロジェクト名:** `latency_histogram_tracker.py` : 定数メモリのレイテンシヒストグラムビニング、継続的なp50/p90/p99分位数ランク補間、およびテールレイテンシSLA検証を実装する、PythonベースのMLOps推論サービングおよびテレメトリプロファイリング用ユーティリティ。
 
+### Automated Two-Phase Commit (2PC) Distributed Transaction Coordinator :
+* **Project Name:** `distributed_2pc_coordinator.py` : A distributed systems and feature store utility in Python implementing the Two-Phase Commit (2PC) protocol with prepare-phase consensus voting, global atomic rollback hooks, and transaction state journaling.
+* **プロジェクト名:** `distributed_2pc_coordinator.py` : 準備フェーズの合意投票、グローバルなアトミックロールバックフック、およびトランザクション状態ジャーナリングを備えた2相コミット（2PC）プロトコルを実装する、Pythonベースの分散システムおよび特徴量ストア用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
