@@ -92,6 +92,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `model_eval_gate.py` : An MLOps governance and continuous validation utility in Python implementing confusion matrix metric derivation, declarative threshold floors, and baseline regression delta evaluation gates.
 * **プロジェクト名:** `model_eval_gate.py` : 混同行列からの評価指標算出、宣言的しきい値基準、およびベースライン回帰デルタ評価ゲートを実装する、PythonベースのMLOpsガバナンスおよび継続的検証用ユーティリティ。
 
+### Automated Streaming Latency Histogram & Percentile Tracker :
+* **Project Name:** `latency_histogram_tracker.py` : An MLOps serving and telemetry profiling utility in Python implementing constant-memory latency histogram bucketing, continuous p50/p90/p99 quantile rank interpolation, and tail latency SLA verification.
+* **プロジェクト名:** `latency_histogram_tracker.py` : 定数メモリのレイテンシヒストグラムビニング、継続的なp50/p90/p99分位数ランク補間、およびテールレイテンシSLA検証を実装する、PythonベースのMLOps推論サービングおよびテレメトリプロファイリング用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
