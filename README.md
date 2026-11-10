@@ -104,6 +104,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `distributed_lock_lease_manager.py` : A distributed systems and MLOps infrastructure utility in Python implementing TTL-bounded mutual exclusion leases, asynchronous heartbeat renewals, and monotonic fencing tokens to prevent split-brain zombie overwrites.
 * **プロジェクト名:** `distributed_lock_lease_manager.py` : TTL制限付き相互排他リース、非同期ハートビート更新、およびスプリットブレインによるゾンビ上書きを防止する単調増加フェンシングトークンを実装する、Pythonベースの分散システムおよびMLOpsインフラ用ユーティリティ。
 
+### Automated Consistent Hash Ring Partitioner with Virtual Nodes :
+* **Project Name:** `consistent_hash_ring.py` : A distributed systems and feature store partitioning utility in Python implementing a consistent hash ring with virtual nodes, logarithmic binary search routing, and minimal-churn rebalancing.
+* **プロジェクト名:** `consistent_hash_ring.py` : 仮想ノードを備えたコンシステントハッシュリング、対数バイナリ探索ルーティング、および最小移動リバランシングを実装する、Pythonベースの分散システムおよび特徴量ストア分割用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
