@@ -100,6 +100,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `distributed_2pc_coordinator.py` : A distributed systems and feature store utility in Python implementing the Two-Phase Commit (2PC) protocol with prepare-phase consensus voting, global atomic rollback hooks, and transaction state journaling.
 * **プロジェクト名:** `distributed_2pc_coordinator.py` : 準備フェーズの合意投票、グローバルなアトミックロールバックフック、およびトランザクション状態ジャーナリングを備えた2相コミット（2PC）プロトコルを実装する、Pythonベースの分散システムおよび特徴量ストア用ユーティリティ。
 
+### Automated Distributed Lock Lease Manager with Fencing Tokens :
+* **Project Name:** `distributed_lock_lease_manager.py` : A distributed systems and MLOps infrastructure utility in Python implementing TTL-bounded mutual exclusion leases, asynchronous heartbeat renewals, and monotonic fencing tokens to prevent split-brain zombie overwrites.
+* **プロジェクト名:** `distributed_lock_lease_manager.py` : TTL制限付き相互排他リース、非同期ハートビート更新、およびスプリットブレインによるゾンビ上書きを防止する単調増加フェンシングトークンを実装する、Pythonベースの分散システムおよびMLOpsインフラ用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
