@@ -108,6 +108,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `consistent_hash_ring.py` : A distributed systems and feature store partitioning utility in Python implementing a consistent hash ring with virtual nodes, logarithmic binary search routing, and minimal-churn rebalancing.
 * **プロジェクト名:** `consistent_hash_ring.py` : 仮想ノードを備えたコンシステントハッシュリング、対数バイナリ探索ルーティング、および最小移動リバランシングを実装する、Pythonベースの分散システムおよび特徴量ストア分割用ユーティリティ。
 
+### Automated Dynamo-Style Quorum Read/Write Coordinator :
+* **Project Name:** `quorum_replication_coordinator.py` : A distributed storage and MLOps feature replication utility in Python implementing R+W>N quorum consensus, monotonic version reconciliation, and asynchronous background read-repair.
+* **プロジェクト名:** `quorum_replication_coordinator.py` : R+W>Nクォーラム合意、単調バージョン調停、および非同期バックグラウンドリード修復を実装する、Pythonベースの分散ストレージおよびMLOps特徴量レプリケーション用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
