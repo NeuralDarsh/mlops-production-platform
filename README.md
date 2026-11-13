@@ -112,6 +112,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `quorum_replication_coordinator.py` : A distributed storage and MLOps feature replication utility in Python implementing R+W>N quorum consensus, monotonic version reconciliation, and asynchronous background read-repair.
 * **プロジェクト名:** `quorum_replication_coordinator.py` : R+W>Nクォーラム合意、単調バージョン調停、および非同期バックグラウンドリード修復を実装する、Pythonベースの分散ストレージおよびMLOps特徴量レプリケーション用ユーティリティ。
 
+### Automated LSM-Tree Storage Engine with Write-Ahead Log (WAL) :
+* **Project Name:** `lsm_storage_engine.py` : A distributed storage engine utility in Python implementing an append-only CRC32 Write-Ahead Log (WAL) for crash recovery, sorted MemTable flushing, tombstone deletion semantics, and SSTable compaction.
+* **プロジェクト名:** `lsm_storage_engine.py` : クラッシュリカバリ用の追記専用CRC32先行書き込みログ（WAL）、ソート済みMemTableフラッシュ、トゥームストーン削除セマンティクス、およびSSTableコンパクションを実装する、Pythonベースの分散ストレージエンジン用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
