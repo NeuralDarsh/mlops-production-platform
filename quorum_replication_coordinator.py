@@ -5,7 +5,6 @@ import json
 import time
 from typing import Any, Dict, List, Optional, Tuple
 
-
 class VersionedRecord:
     """Represents a stored feature payload paired with a monotonic version stamp."""
     def __init__(self, value: Any, version: int, updated_at: float):
