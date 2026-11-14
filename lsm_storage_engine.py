@@ -31,7 +31,7 @@ class WriteAheadLog:
 
         recovered = []
         with open(self.wal_path, "r", encoding="utf-8") as f:
-            for line_num, line in enumerate(f, start=1):
+            for line_num, line in enumerate(f,start=1):
                 line = line.strip()
                 if not line or "|" not in line:
                     continue
