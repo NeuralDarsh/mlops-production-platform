@@ -116,6 +116,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `lsm_storage_engine.py` : A distributed storage engine utility in Python implementing an append-only CRC32 Write-Ahead Log (WAL) for crash recovery, sorted MemTable flushing, tombstone deletion semantics, and SSTable compaction.
 * **プロジェクト名:** `lsm_storage_engine.py` : クラッシュリカバリ用の追記専用CRC32先行書き込みログ（WAL）、ソート済みMemTableフラッシュ、トゥームストーン削除セマンティクス、およびSSTableコンパクションを実装する、Pythonベースの分散ストレージエンジン用ユーティリティ。
 
+### Automated Scalable Bloom Filter Index Engine :
+* **Project Name:** `bloom_filter_index.py` : A distributed storage optimization utility in Python implementing an optimal bit-array Bloom filter with Kirsch-Mitzenmacher double hashing to eliminate unnecessary SSTable disk I/O on negative feature lookups.
+* **プロジェクト名:** `bloom_filter_index.py` : ネガティブな特徴量ルックアップ時の不要なSSTableディスクI/Oを排除するため、キルシュ・ミッツェンマッハー二重ハッシュ法を用いた最適ビット配列ブルームフィルタを実装する、Pythonベースの分散ストレージ最適化ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
