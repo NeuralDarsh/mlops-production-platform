@@ -120,6 +120,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `bloom_filter_index.py` : A distributed storage optimization utility in Python implementing an optimal bit-array Bloom filter with Kirsch-Mitzenmacher double hashing to eliminate unnecessary SSTable disk I/O on negative feature lookups.
 * **プロジェクト名:** `bloom_filter_index.py` : ネガティブな特徴量ルックアップ時の不要なSSTableディスクI/Oを排除するため、キルシュ・ミッツェンマッハー二重ハッシュ法を用いた最適ビット配列ブルームフィルタを実装する、Pythonベースの分散ストレージ最適化ユーティリティ。
 
+### Automated SWIM-Style Gossip Protocol & Membership Engine :
+* **Project Name:** `gossip_membership_engine.py` : A decentralized distributed systems utility in Python implementing SWIM-inspired peer-to-peer PING/PING-REQ failure probing, suspicion grace periods, monotonic incarnation refutation, and piggybacked gossip dissemination.
+* **プロジェクト名:** `gossip_membership_engine.py` : SWIMにインスパイアされたピアツーピアのPING/PING-REQ障害プローブ、疑惑猶予期間、単調インカーネーション反証、およびピギーバックゴシップ伝播を実装する、Pythonベースの分散システム用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
