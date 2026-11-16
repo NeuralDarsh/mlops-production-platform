@@ -124,6 +124,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `gossip_membership_engine.py` : A decentralized distributed systems utility in Python implementing SWIM-inspired peer-to-peer PING/PING-REQ failure probing, suspicion grace periods, monotonic incarnation refutation, and piggybacked gossip dissemination.
 * **プロジェクト名:** `gossip_membership_engine.py` : SWIMにインスパイアされたピアツーピアのPING/PING-REQ障害プローブ、疑惑猶予期間、単調インカーネーション反証、およびピギーバックゴシップ伝播を実装する、Pythonベースの分散システム用ユーティリティ。
 
+### Automated Raft-Inspired Leader Election & Consensus Engine :
+* **Project Name:** `raft_consensus_engine.py` : A distributed control-plane consensus utility in Python implementing Raft-style term-based leader election, majority quorum voting, and replicated state-machine log commitment.
+* **プロジェクト名:** `raft_consensus_engine.py` : Raftスタイルのタームベースリーダー選出、過半数クォーラム投票、および複製ステートマシンログコミットを実装する、Pythonベースの分散コントロールプレーン合意形成ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
