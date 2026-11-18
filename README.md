@@ -128,6 +128,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `raft_consensus_engine.py` : A distributed control-plane consensus utility in Python implementing Raft-style term-based leader election, majority quorum voting, and replicated state-machine log commitment.
 * **プロジェクト名:** `raft_consensus_engine.py` : Raftスタイルのタームベースリーダー選出、過半数クォーラム投票、および複製ステートマシンログコミットを実装する、Pythonベースの分散コントロールプレーン合意形成ユーティリティ。
 
+### Automated Vector Clock & CRDT State Merge Engine :
+* **Project Name:** `vector_clock_crdt_engine.py` : A distributed systems and edge MLOps synchronization utility in Python implementing logical vector clocks for causal conflict detection, PN-Counter CRDT semilattice joins, and idempotent anti-entropy state convergence.
+* **プロジェクト名:** `vector_clock_crdt_engine.py` : 因果競合検出のための論理ベクタークロック、PNカウンターCRDTセミラティス結合、および冪等なアンチエントロピー状態収束を実装する、Pythonベースの分散システムおよびエッジMLOps同期用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
