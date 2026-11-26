@@ -132,6 +132,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `vector_clock_crdt_engine.py` : A distributed systems and edge MLOps synchronization utility in Python implementing logical vector clocks for causal conflict detection, PN-Counter CRDT semilattice joins, and idempotent anti-entropy state convergence.
 * **プロジェクト名:** `vector_clock_crdt_engine.py` : 因果競合検出のための論理ベクタークロック、PNカウンターCRDTセミラティス結合、および冪等なアンチエントロピー状態収束を実装する、Pythonベースの分散システムおよびエッジMLOps同期用ユーティリティ。
 
+### Automated DAG Workflow Orchestrator & Parallel Scheduler Engine :
+* **Project Name:** `dag_pipeline_orchestrator.py` : An MLOps pipeline orchestration utility in Python implementing Kahn's algorithm for cycle validation, asynchronous parallel task execution, and transitive upstream failure cascading.
+* **プロジェクト名:** `dag_pipeline_orchestrator.py` : サイクル検証のためのカーンのアルゴリズム、非同期並列タスク実行、および推移的な上流障害カスケードを実装する、PythonベースのMLOpsパイプラインオーケストレーション用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
