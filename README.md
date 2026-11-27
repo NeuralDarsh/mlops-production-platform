@@ -136,6 +136,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `dag_pipeline_orchestrator.py` : An MLOps pipeline orchestration utility in Python implementing Kahn's algorithm for cycle validation, asynchronous parallel task execution, and transitive upstream failure cascading.
 * **プロジェクト名:** `dag_pipeline_orchestrator.py` : サイクル検証のためのカーンのアルゴリズム、非同期並列タスク実行、および推移的な上流障害カスケードを実装する、PythonベースのMLOpsパイプラインオーケストレーション用ユーティリティ。
 
+### Automated Sliding-Window Counter Rate Limiter :
+* **Project Name:** `sliding_window_rate_limiter.py` : An MLOps API gateway and traffic governance utility in Python implementing the O(1)-memory Sliding-Window Counter algorithm, multi-tenant quota isolation, and HTTP 429 backpressure headers.
+* **プロジェクト名:** `sliding_window_rate_limiter.py` : O(1)メモリのスライディングウィンドウカウンターアルゴリズム、マルチテナントクォータ分離、およびHTTP 429バックプレッシャーヘッダーを実装する、PythonベースのMLOps APIゲートウェイおよびトラフィック制御用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
