@@ -14,12 +14,11 @@ class TenantWindowState:
         self.current_count = 0
 
 class SlidingWindowRateLimiter:
-  
     def __init__(self, default_limit: int = 10, window_size_sec: float = 1.0):
         if default_limit <= 0 or window_size_sec <= 0:
             raise ValueError("default_limit and window_size_sec must be strictly positive.")
         self.default_limit = default_limit
-        self.window_size_sec = window_size_sec
+        self.window_size_sec = window_size_sec   
         self._tenant_limits: Dict[str, int] = {}
         self._states: Dict[str, TenantWindowState] = {}
         self._lock = threading.Lock()
