@@ -140,6 +140,10 @@ The architecture emphasizes end-to-end reliability, asynchronous data pipelining
 * **Project Name:** `sliding_window_rate_limiter.py` : An MLOps API gateway and traffic governance utility in Python implementing the O(1)-memory Sliding-Window Counter algorithm, multi-tenant quota isolation, and HTTP 429 backpressure headers.
 * **プロジェクト名:** `sliding_window_rate_limiter.py` : O(1)メモリのスライディングウィンドウカウンターアルゴリズム、マルチテナントクォータ分離、およびHTTP 429バックプレッシャーヘッダーを実装する、PythonベースのMLOps APIゲートウェイおよびトラフィック制御用ユーティリティ。
 
+### Automated Token-Bucket LLM Quota & Prompt-Token Rate Limiter :
+* **Project Name:** `llm_token_bucket_limiter.py` : An MLOps LLM serving and capacity governance utility in Python implementing continuous token-bucket replenishment, pre-flight prompt/completion reservation, early-EOS token refunds, and deficit Retry-After calculation.
+* **プロジェクト名:** `llm_token_bucket_limiter.py` : 連続トークンバケット補充、事前プロンプト・生成トークン予約、早期EOSトークン返還、および不足分Retry-After計算を実装する、PythonベースのMLOps LLMサービングおよび容量制御用ユーティリティ。
+
 ---
 
 ## 🚀 Getting Started / 実行方法
